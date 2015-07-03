@@ -521,6 +521,19 @@
         </y:GenericNode>
       </data>
     </node>
+    <node id="n33">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.attribute">
+          <y:Geometry height="12.0" width="12.0" x="0.0" y="94.0"/>
+          <y:Fill color="#339966" color2="#008080" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Sans" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.296875" modelName="sides" modelPosition="e" rotationAngle="90.0" textColor="#000000" visible="true" width="45.2890625" x="16.0" y="-16.64453125">Nome</y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="false"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
     <edge id="e0" source="n0" target="n1">
       <data key="d10">
         <y:PolyLineEdge>
@@ -841,6 +854,16 @@
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#333333" type="line" width="2.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e32" source="n2" target="n33">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-34.0" sy="0.5" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="2.0"/>
           <y:Arrows source="none" target="none"/>
           <y:BendStyle smoothed="false"/>
